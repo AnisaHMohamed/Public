@@ -1,0 +1,208 @@
+body{font-family: 'Poppins', sans-serif;
+/* background-color: white; */
+background-repeat: no-repeat;
+margin: 0px;
+}
+body{
+  background: url('https://images.unsplash.com/photo-1489769002049-ccd828976a6c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1514&q=80'); 
+  background-attachment: fixed;
+  height: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+
+}
+
+h1{
+  color: white;
+  font-size: 40px;
+}
+h2{
+  font-size: 30px;
+  color: white;
+}
+header{
+  background-color: #006e6c;
+   padding:10px 20px;
+  /* margin-bottom: 40px; */
+}
+.img-parent{
+  width: 200px;
+  display: flex;
+  justify-content: flex-start;
+  height: auto;
+
+}
+.img-parent img{
+    border-radius: 100%;
+    width:100%;
+    border: 1px SOLID;
+    border-color: black;
+}
+.menu-link {
+  margin-left: 10px;
+  color: white;
+  font-size: 20px;
+  padding:10px 20px;
+  text-decoration: none;}
+.menu{
+  color: white;
+  /* display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+#About h2{
+  color: black;
+
+}
+#About{
+  width: 100%;
+  padding:10px 20px;
+  color: black;
+}
+#Experience h2{
+color: black;
+}
+#Experience h3{
+margin-top: 0;
+}
+#Skills{
+  background-color: #006e6c;
+  padding:10px 20px;
+  color:white;
+  width: 100%;
+}
+.Skill-bar{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.Skill-bar li{
+  flex: 3;
+}
+#Experience{
+
+  padding:10px 20px;
+}
+
+footer{
+  background-color: #323232;
+  color: white;
+}
+#Contact{
+  background-color: #323232;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:10px 20px;
+  width: 100%;
+}
+#Contact h2{
+order: 1;
+}
+#Contact h3{
+order: 2
+}
+#Contact h4{
+order: 3
+}
+#Contact a{
+  order: 4;
+  color: white;
+}
+
+.name-pic-container{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #006e6c;
+}
+.date-title{
+  display: flex;
+  align-items: baseline;
+}
+.date-title #job{
+
+  font-size: 25px;
+  width: 30%;
+}
+.date-title #date{
+  font-size: 20px;
+    color: blue;
+}
+
+.company-description{
+  display: flex;
+    align-items: flex-start;
+
+}
+
+.company-description h3{
+  font-size: 40px;
+  align-items: baseline;
+  width: 30%;
+}
+.company-description p{
+  width: 60%;
+}
+meter::-webkit-meter-bar {
+  border-radius: 10px;
+}
+meter::-webkit-meter-optimum-value {
+  background: aliceblue;
+}
+meter::-webkit-meter-bar {
+  border-radius: 10px;
+}
+meter {
+  width: 500px;
+  height: 25px;
+}
+
+
+/* TABLET AND MOBILE*/
+
+@media screen and (max-width:768px){
+
+  #Experience, #Skills, #Contact, #About{
+
+    width:100%;
+    margin:0;
+  }
+  .company-description{
+    flex-direction: column;
+    padding:20px 50px;
+  }
+  .company-description p{
+    width:100%;
+  }
+  .date-title{
+    flex-direction: column;
+    margin:0;
+  }
+  .date-title h4,
+  .date-title h5{
+    flex-direction: column;
+
+    margin:0;
+  }
+
+#company{
+  font-size: 30px;
+}
+header {
+  margin: 0;
+  width: 100%;
+}
+.name-pic-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #006e6c;
+  }
+}
